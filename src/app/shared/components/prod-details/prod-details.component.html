@@ -1,0 +1,25 @@
+<div *ngFor="let item of products">
+  <div *ngIf="item.$key === idProduct">
+    <div class="row">
+      <div class="col-6">
+        <img src="{{item.imageUrl}}" style="width: 100%; height: 100%;">
+      </div>
+      <div class="col-6">
+        <div class="productinfo">
+          <span class="title">
+            {{item.title | uppercase }}
+          </span>
+          <p>
+          {{item.category | uppercase}}
+          </p>
+          <p>
+              {{item.description}}
+           </p>
+          <p>
+          {{item.price | currency: 'USD':true }}
+        </p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>

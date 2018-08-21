@@ -1,3 +1,4 @@
+import { Product } from './../shared/models/product';
 import { SharedModule } from './../shared/shared.module';
 import { AuthGuard } from 'shared/services/auth-guard.service';
 import { RouterModule } from '@angular/router';
@@ -33,7 +34,7 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
     MyOrdersComponent,
     ProductFilterComponent,
     ShoppingCartSummaryComponent,
-    ShippingFormComponent
+    ShippingFormComponent,
   ]
 })
 export class ShoppingModule { }

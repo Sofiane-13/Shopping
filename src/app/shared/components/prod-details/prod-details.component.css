@@ -1,0 +1,12 @@
+.productinfo {
+  display: grid;
+
+}
+.title {
+color: grey;
+font-size: 18px;
+font-size: 20px;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+

@@ -1,9 +1,9 @@
 
-.card { 
+.card {
   margin-bottom: 30px;
 }
 
-.card-img-top { 
+.card-img-top {
   height: 200px;
 }
 
@@ -15,4 +15,9 @@
 .card-footer button {
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.card-description {
+  color: black;
+  font-size: 14px;
 }
